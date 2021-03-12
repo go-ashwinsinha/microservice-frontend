@@ -23,11 +23,11 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-		<dependency>
+		<!--  <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
 			<scope>provided</scope>
-		</dependency>
+		</dependency>-->
 		
 		<!-- JSTL for JSP -->
         <dependency>
@@ -35,7 +35,7 @@
             <artifactId>jstl</artifactId>
         </dependency>
         
-        <!-- Need this to compile JSP -->
+        <!-- Need this to compile JSP--> 
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-jasper</artifactId>
@@ -43,13 +43,13 @@
         </dependency>
 
         <!-- Need this to compile JSP, 
-            tomcat-embed-jasper version is not working, no idea why -->
+            tomcat-embed-jasper version is not working, no idea why
         <dependency>
             <groupId>org.eclipse.jdt.core.compiler</groupId>
             <artifactId>ecj</artifactId>
             <version>4.6.1</version>
             <scope>provided</scope>
-        </dependency>
+        </dependency>-->
         
         
 	</dependencies>
