@@ -66,7 +66,7 @@
                 <version>2.5.0</version>
                 <configuration>
                     <to>
-                        <image>${image.path}</image>
+                        <image>gcr.io/proven-hash-284203/microservice-frontend:v4</image>
                     </to>
                     <container>
 				        <ports>
