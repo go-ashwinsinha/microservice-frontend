@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.microservice.frontend</groupId>
 	<artifactId>microservice-frontend</artifactId>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<version>0.0.1</version>
 	<name>microservice-frontend</name>
 	<description>Microservice Frontend</description>
